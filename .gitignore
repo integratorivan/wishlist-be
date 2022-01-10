@@ -234,26 +234,11 @@ _Pvt_Extensions
 
 # LightSwitch generated files
 GeneratedArtifacts/
-_Pvt_Extensions/
 ModelManifest.xml
-/Deploy/Builds
 
 # Paket dependency manager
 .paket/paket.exe
 
-# FAKE - F# Make
-**/[Bb]uilds/
-**/[Aa]rtifacts/
-**/[Dd]eploy/[Cc]ake/[Tt]ools/
-**/[Dd]eploy/[Tt]ools/
-**/*.md5sum
-**/deploy-batch.txt
-src/BetLab.Sport.BetGateNew.Api/out/
-src/BetLab.Sport.SettlementMonitor/.idea/
-src/.idea/
-
-# NCrunch
-*ncrunch*
-
-# idea/
+# idea
 .idea/
+.idea/.idea.Wishlist
