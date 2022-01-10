@@ -10,4 +10,10 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Wishlist\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Wishlist\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="Wishlist\obj\Wishlist.csproj.nuget.dgspec.json" />
+    </ItemGroup>
+
 </Project>
