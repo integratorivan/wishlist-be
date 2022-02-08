@@ -6,14 +6,24 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+        <PackageReference Include="NSwag.Annotations" Version="13.15.7"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
     </ItemGroup>
 
     <ItemGroup>
-      <_ContentIncludedByDefault Remove="Wishlist\obj\project.assets.json" />
-      <_ContentIncludedByDefault Remove="Wishlist\obj\project.packagespec.json" />
-      <_ContentIncludedByDefault Remove="Wishlist\obj\Wishlist.csproj.nuget.dgspec.json" />
+        <_ContentIncludedByDefault Remove="Wishlist\obj\project.assets.json"/>
+        <_ContentIncludedByDefault Remove="Wishlist\obj\project.packagespec.json"/>
+        <_ContentIncludedByDefault Remove="Wishlist\obj\Wishlist.csproj.nuget.dgspec.json"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Middleware"/>
     </ItemGroup>
 
 </Project>
